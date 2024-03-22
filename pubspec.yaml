@@ -63,6 +63,8 @@ flutter:
     - assets\images\biabonita.jpg
     - assets\images\perm_phone_msg_FILL0_wght400_GRAD0_opsz24.png
     - assets\images\call.png
+    - assets\images\o-email.png
+    - assets\images\bater-papo.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

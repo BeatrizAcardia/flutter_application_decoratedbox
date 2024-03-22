@@ -43,29 +43,58 @@ final fontes = Text(
 
         Row(mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            IconButton(
-            icon: Image.asset('assets/images/call.png',
-            width: 30.0,
-            height: 30.0,
+           IconButton(
+            icon: Image.asset(
+              'assets/images/perm_phone_msg_FILL0_wght400_GRAD0_opsz24.png', // caminho da sua imagem
+              width: 30.0, // largura da imagem
+              height: 30.0, // altura da imagem
             ),
             onPressed: () {
-              print('Favorite IconButton Pressed');
-              },
+              // ação a ser executada quando o botão for pressionado
+              print('IconButton Pressed');
+            },
+          ),
+
+          SizedBox(height: 20,),
+
+          IconButton(
+            icon: Image.asset(
+              'assets/images/o-email.png', // caminho da sua imagem
+              width: 30.0, // largura da imagem
+              height: 30.0, // altura da imagem
             ),
+            onPressed: () {
+              // ação a ser executada quando o botão for pressionado
+              print('IconButton Pressed');
+            },
+          ),
+
+          SizedBox(height: 20,),
+
+          IconButton(
+            icon: Image.asset(
+              'assets/images/bater-papo.png', // caminho da sua imagem
+              width: 30.0, // largura da imagem
+              height: 30.0, // altura da imagem
+            ),
+            onPressed: () {
+              // ação a ser executada quando o botão for pressionado
+              print('IconButton Pressed');
+            },
+          ),
+
             ],),
 
         DecoratedBox(decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30.0),
           border: Border.all(),
-          color: Color.fromARGB(255, 191, 197, 191),),
+          color: Color.fromARGB(255, 200, 202, 200),),
           child: 
           Padding(
             padding: EdgeInsets.all(40),
-            child: Text("Meus gatinhos"),
+            child: Text("Meu nome é Bia e estou entusiasmado por estar aqui com vocês. Tenho uma paixão por PD e valorizo a colaboração e troca de ideias. Trago valores de integridade e respeito. Estou ansioso para contribuir e aprender com todos vocês. Vamos aproveitar ao máximo essa oportunidade de crescimento juntos."),
           ),
           ),
-
-           
       ],
       ),),
     );
